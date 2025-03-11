@@ -1,0 +1,47 @@
+.section-info {
+    background: #F4EFE9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+   
+}
+.card:nth-child(even) .info {
+    text-align: left;
+}
+.card:nth-child(even) .image {
+    order: -1;
+}
+.info {
+    width: 600px;
+    text-align: right;
+
+}
+
+.image {
+    height: 600px;
+    width: 600px;
+    background: url('../Img/img.png');
+    background-position: center center;
+}
+.img-1 {
+    background: url('../Img/img.png');
+}
+.img-2 {
+    background: url('../Img/img-2.png');
+}
+.img-3 {
+    background: url('../Img/img-3.png');
+}
+.img-4 {
+    background: url('../Img/img-4.png');
+}
+.img-5 {
+    background: url('../Img/img-5.png');
+}

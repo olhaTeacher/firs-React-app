@@ -1,0 +1,63 @@
+.container {
+    max-width: 1200px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    
+}
+footer {
+    background: #fff;
+    padding-top: 64px;
+    
+    
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.company p, .resourse p {
+    color: #1E1928;
+    font-weight: bold;
+}
+.footer-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-content ul li {
+    margin-bottom: 16px;
+    color: rgba(30, 25, 40, 0.8);
+}
+.footer-content button{
+    background: rgba(30, 25, 40, 1);
+    color: rgba(244, 239, 233, 1);
+    border: none;
+    padding: 10px 32px;
+    border-radius: 20px;
+    height: 40px;
+}
+.footer-content .link-img{
+    background: rgba(30, 25, 40, 1);
+    color: rgba(244, 239, 233, 1);
+    border: none;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.link-img a {
+    text-decoration: none;
+    color: rgba(244, 239, 233, 1);
+}
+.app {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+}
+.app  p {
+    max-width: 672px;
+    font-size: 14px;
+}
+.author {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}

@@ -1,0 +1,33 @@
+.additional-information {
+    position: relative;
+    z-index: 1;
+}
+.additional {
+    background: #fff;
+    padding: 80px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.additional h2 {
+    
+    font-size: 32px;
+}
+.additional p {
+    text-align: center;
+    width: 653px;
+    letter-spacing: 0.25px;
+    font-size: 18px;
+}
+.additional button {
+    background: none;
+    padding: 10px 33px;
+    border-radius: 28px;
+}
+
